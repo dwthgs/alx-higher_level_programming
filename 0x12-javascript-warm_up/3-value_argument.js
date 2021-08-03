@@ -1,4 +1,3 @@
-#!/usr/bin/node
-const args = process.argv;
-if (args.length <= 2) console.log('No argument');
-else console.log(args[2]);
+#!/Users/dev/.nvm/versions/node/v16.6.0/bin/node
+if (!process.argv[2]) console.log('No argument');
+else console.log(process.argv[2]);
